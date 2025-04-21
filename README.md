@@ -16,25 +16,24 @@
 ## Структура проекта
 
 ```
-KPO_mini_hw2/               # корень решения
-  ├── src/
-  │    └── KPO_mini_hw2/    # основной проект
-  │         ├── Domain/     # доменная модель
-  │         │    ├── Entities/
-  │         │    ├── Events/
-  │         │    ├── Interfaces/
-  │         │    └── ValueObjects/
-  │         ├── Application/ # сервисы и интерфейсы
-  │         │    ├── Interfaces/
-  │         │    ├── DTOs/
-  │         │    └── Services/
-  │         ├── Infrastructure/  # in-memory репозитории и события
-  │         │    ├── Repositories/
-  │         │    └── Events/
-  │         ├── Presentation/    # Web API
-  │         │    ├── Controllers/
-  │         │    └── Program.cs
-  │         └── KPO_mini_hw2.csproj
+
+KPO_project/    # основной проект
+  ├── Domain/     # доменная модель
+  │    ├── Entities/
+  │    ├── Events/
+  │    ├── Interfaces/
+  │    └── ValueObjects/
+  ├── Application/ # сервисы и интерфейсы
+  │    ├── Interfaces/
+  │    ├── DTOs/
+  │    └── Services/
+  ├── Infrastructure/  # in-memory репозитории и события
+  │    ├── Repositories/
+  │    └── Events/
+  ├── Presentation/    # Web API
+  │    ├── Controllers/
+  │    └── Program.cs
+  └── KPO_mini_hw2.csproj
   
 ```
 
